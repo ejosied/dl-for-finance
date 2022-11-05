@@ -7,4 +7,4 @@ This is a custom project exploring applications of deep learning in finance for 
 
 	1) *Minimal goal*: Explore DNNs, RNNs, and LSTM approaches to predict decisions for one stock, perhaps S&P 500.
 	2) *Expected goal*: Extend the minimal goal to include text input from news sources, and develop a model to predict decisions for multiple stocks. Potential news sources are the Financial Times and the Harvard Business Review. I hope to use an existing text vectorizer trained specifically on a finance-focused corpus.
-  3) *Stretch goal*: Implement scraping to obtain more diverse and more current text sources for stronger sentiment analysis.![image](https://user-images.githubusercontent.com/92758942/200120607-4210239b-04ab-4c1e-a507-a4205b302d31.png)
+	3) *Stretch goal*: Implement scraping to obtain more diverse and more current text sources for stronger sentiment analysis.
