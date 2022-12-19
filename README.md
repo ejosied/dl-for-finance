@@ -19,7 +19,7 @@ Using Yahoo Finance data, two inputs—news articles and stock data—can be pro
 
 I am pleased to say that I was able to fulfill the third version **stretch goal** of the project, including two methods of scraping to get the most complete news data from Yahoo Finance.
 
-### Results
+## Results
 
 The model achieves about **51.8%** (reaching 53.9% at its peak) test observation-wise accuracy with early stopping, and **52.4%** test accuracy when considering the average prediction grouped by stock and publish date. By acquiring more data and continuing to experiment with hyperparameter tuning and model selection, these results may see substantial improvements. Limitations and ideas for future improvements are discussed in the final notebook, `models/multistage_model.ipynb`.
 
