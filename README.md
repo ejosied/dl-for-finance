@@ -5,7 +5,7 @@ Using stock market news and daily close values to predict next-day stock increas
 
 ## Introduction
 
-When imagining the applications of machine learning in the finance domain, many examples of tried-and-true methods come to mind—the nature of stock data lends itself nicely to time series forecasting, financial data in tabular form cooporates well with traditional regression and tree-based models, and text such as news articles can be used for semantic analysis. The multiple mediums of finance-realted data available inspired the idea to combine these approaches in a multi-phase model are compare it to the predictive performance of using just one medium.
+When imagining the applications of machine learning in the finance domain, many examples of tried-and-true methods come to mind—the nature of stock data lends itself nicely to time series forecasting, financial data in tabular form cooperates well with traditional regression and tree-based models, and text such as news articles can be used for semantic analysis. The multiple mediums of finance-related data available inspired the idea to combine these approaches in a multi-phase model are compare it to the predictive performance of using just one medium.
 
 Using Yahoo Finance data, two inputs—news articles and stock data—can be processed with their own LSTM sub-models, the outputs concatenated, and the result processed further with Dense layers to obtain a final prediction answering the question, "*Will the stock's close value increase or decrease the following day?*"
 
@@ -24,6 +24,8 @@ I am pleased to say that I was able to fulfill the third version **stretch goal*
 The model achieves about **53.4%** (reaching 54.2% at its peak) test observation-wise accuracy with early stopping, and **51.9%** test accuracy when considering the average prediction grouped by stock and publish date. By acquiring more data and continuing to experiment with hyperparameter tuning and model selection, these results may see substantial improvements. Limitations and ideas for future improvements are discussed in the final notebook, `models/multistage_model.ipynb`.
 
 ## Content
+
+`dl-for-finance.pdf`: A slideshow summary of the project and repository contents.
 
 `edav/`
 - `edav.ipynb`: A notebook of exploratory analysis and visualization of data available in the Yahoo Finance API.
