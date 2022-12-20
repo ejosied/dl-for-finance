@@ -21,7 +21,7 @@ I am pleased to say that I was able to fulfill the third version **stretch goal*
 
 ## Results
 
-The model achieves about **51.8%** (reaching 53.9% at its peak) test observation-wise accuracy with early stopping, and **52.4%** test accuracy when considering the average prediction grouped by stock and publish date. By acquiring more data and continuing to experiment with hyperparameter tuning and model selection, these results may see substantial improvements. Limitations and ideas for future improvements are discussed in the final notebook, `models/multistage_model.ipynb`.
+The model achieves about **53.4%** (reaching 54.2% at its peak) test observation-wise accuracy with early stopping, and **51.9%** test accuracy when considering the average prediction grouped by stock and publish date. By acquiring more data and continuing to experiment with hyperparameter tuning and model selection, these results may see substantial improvements. Limitations and ideas for future improvements are discussed in the final notebook, `models/multistage_model.ipynb`.
 
 ## Content
 
@@ -34,7 +34,9 @@ The model achieves about **51.8%** (reaching 53.9% at its peak) test observation
 - `scrape_news_yahoo_finance_html.ipynb`: Code to scrape news from .txt files containing HTML code of Yahoo Finance Stock Market News search results.
 
 `models/`
-- `multistage_model.ipynb/`: Notebook containing the code, explanations, and outcomes of the final model for this project.
+- `model_weights/`: A directory of weights saved from the trained model.
+- `demo.ipynb`: A brief demo of model predictions and infrence with user interaction and visualized results.
+- `multistage_model.ipynb/`: A notebook containing the code, explanations, and outcomes of the final model for this project.
 - `stock_only_model.ipynb`: An experimental notebook focusing on time series stock data (modified from the TensorFlow tutorial on time series forecasting: https://www.tensorflow.org/tutorials/structured_data/time_series)
 - `model.png`: A visualization of the final deep learning model.
 
